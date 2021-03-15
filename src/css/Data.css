@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.user-data-block {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.item-data {
+  float: left;
+  width: 100%;
+  margin: 0px 0px;
+}
+
+.item-data p span {
+  display: inline-block;
+  width: 200px;
+  font-size: 20px;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.item-data .left-block {
+  float: left;
+  width: 60%;
+}
+
+.item-data .right-block {
+  float: left;
+  width: 40%;
+}
+
+.item-data .right-block button {
+  border: 1px solid #000;
+  background: transparent;
+  padding: 10px 20px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
